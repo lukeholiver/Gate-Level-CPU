@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <circuit>
   <version>2</version>
-  <attributes/>
+  <attributes>
+    <entry>
+      <string>romContent</string>
+      <romList>
+        <roms/>
+      </romList>
+    </entry>
+    <entry>
+      <string>Width</string>
+      <int>8</int>
+    </entry>
+  </attributes>
   <visualElements>
     <visualElement>
       <elementName>In</elementName>
@@ -446,12 +457,12 @@
       <elementName>Rectangle</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>Bit 0</string>
-        </entry>
-        <entry>
           <string>RectHeight</string>
           <int>10</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Bit 0</string>
         </entry>
         <entry>
           <string>RectWidth</string>
